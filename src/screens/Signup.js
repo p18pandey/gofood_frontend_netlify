@@ -21,6 +21,9 @@ export default function Signup() {
             if(!json.success){
                 alert("Enter Valid Credentials")
             }
+            if(json.success){
+                alert("Account created successfully. Click on 'Already a user' to login ")
+            }
 
         }
     const onChange=(event)=>{
